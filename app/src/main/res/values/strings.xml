@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PetPhoto</string>
+    <string name="text_select_start">선택을 시작하시겠습니까?</string>
+    <string name="text_favorite_pet">선택을 시작하시겠습니까?</string>
+    <string name="check_start">시작함</string>
+    <string name="radio_cat">고양이</string>
+    <string name="radio_fox">여우</string>
+    <string name="check_mouse">쥐</string>
+    <string name="btn_done">선택완료</string>
+</resources>
