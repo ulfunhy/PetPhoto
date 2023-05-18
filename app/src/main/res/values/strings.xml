@@ -5,6 +5,6 @@
     <string name="check_start">시작함</string>
     <string name="radio_cat">고양이</string>
     <string name="radio_fox">여우</string>
-    <string name="check_mouse">쥐</string>
+    <string name="radio_mouse">쥐</string>
     <string name="btn_done">선택완료</string>
 </resources>
