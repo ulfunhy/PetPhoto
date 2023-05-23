@@ -8,6 +8,7 @@ import android.widget.CheckBox
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.RadioGroup
+import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
     lateinit var checkStart:CheckBox
@@ -31,6 +32,15 @@ class MainActivity : AppCompatActivity() {
                 linear.visibility = View.VISIBLE
             }else{
                 linear.visibility=View.INVISIBLE
+            }
+        }
+
+        btnDone.setOnClickListener {
+            when(rg.checkedRadioButtonId){
+                R.id.radio_cat -> imgv.setImageResource(R.drawable.cat)
+                R.id.radio_fox -> imgv.setImageResource(R.drawable.fox)
+                R.id.radio_mouse -> imgv.setImageResource(R.drawable.mouse)
+                else -> Toast.makeText(applicationContext, "라디오 버튼이 선택되지 않았습니다.", Toast.LENGTH_SHORT).show()
             }
         }
     }
